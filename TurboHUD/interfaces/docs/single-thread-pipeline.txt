@@ -1,0 +1,19 @@
+﻿main loop on the single main thread:
+
+    COLLECT ->
+        IMouseClickHandler
+        IAfterCollectHandler (always called)->
+    START RENDERING (whole rendering may be skipped if the game haven't rendered a new frame yet)
+        IBeforeRenderHandler (always called) ->
+        IInGameWorldPainter (WorldLayer.Map) (only if inventory is not visible and rendering enabled)
+        IInGameWorldPainter (WorldLayer.Ground) (only if inventory is not visible and rendering enabled)
+        IInGameTopPainter (ClipState.BeforeClip) (only if rendering enabled)
+        CLIP BY MAP (big or mini)
+        IInGameTopPainter (ClipState.Inventory (only if inventory or follower dialog is visible)
+        CLIP BY inventory/stash/vendor panel (only if inventory or follower dialog is visible)
+        IInGameTopPainter (ClipState.AfterClip)
+    DRAW FRAME
+    WAIT (13 or 32 msec, depends on high_framerate configuration value)
+
+called on separate thread(s):
+    IMouseClickBlocker

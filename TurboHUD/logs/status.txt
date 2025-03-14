@@ -1,0 +1,23 @@
+﻿2025.03.14 22:15:47.359	loading database
+2025.03.14 22:15:48.176	database loaded
+2025.03.14 22:15:48.186	new context [25.2.18.0] [Microsoft Windows NT 10.0.19045.0 / Windows 10]
+2025.03.14 22:15:48.197	initializing overlay
+2025.03.14 22:15:48.219		create Direct2D1 Factory
+2025.03.14 22:15:48.223		create DirectWrite Factory
+2025.03.14 22:15:48.226		create DirectInput
+2025.03.14 22:15:48.332		create DirectInput Keyboard
+2025.03.14 22:15:48.352		create SwapChain
+2025.03.14 22:15:48.572		maximum supported feature level: Level_11_0
+2025.03.14 22:15:48.656	create render target
+2025.03.14 22:15:48.660	render target created
+2025.03.14 22:15:48.692	starting tcp listener on port #8081
+2025.03.14 22:15:48.757	loading configuration
+2025.03.14 22:15:48.764		config.xml
+2025.03.14 22:15:48.875	configuration loaded
+2025.03.14 22:15:48.983	loading plugins
+2025.03.14 22:17:15.710	plugins loaded
+2025.03.14 22:17:16.842	new run: 武僧, New Tristram, Difficulty: t16
+2025.03.14 22:17:20.655	create render target
+2025.03.14 22:17:20.657	render target created
+2025.03.14 22:17:32.337	exit
+2025.03.14 22:17:32.344	new run: 武僧, New Tristram, Difficulty: t16

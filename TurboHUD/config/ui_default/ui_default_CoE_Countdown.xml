@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<constants>
+		<enabled value="0"/>
+		<class value="monk"/>
+	</constants>
+	<templates>
+		<EffectCount1 enabled="::enabled">
+			<title font_family="tahoma" font_shadow="1" font_size="25.0" font_color="255,0,115,108" font_bold="1" font_halign="Center"/>
+		</EffectCount1>
+		<EffectCount2 enabled="::enabled">
+			<title font_family="tahoma" font_shadow="1" font_size="33.0" font_color="255,152,0,0" font_bold="1" font_halign="Center"/>
+		</EffectCount2>
+		<EffectCount3 enabled="::enabled">
+			<title font_family="tahoma" font_shadow="1" font_size="45.0" font_color="255,139,186,255" font_bold="1" font_halign="Center"/>
+		</EffectCount3>
+	</templates>
+	<labels>
+		<Countdown1 template="EffectCount1" expression="">
+			<position x="50" y="20"/>
+			<conditions active_buffs="430674/1" class="::class"/>
+		</Countdown1>
+		<Countdown2 template="EffectCount3" expression="冰!!!冰!!!冰!!!">
+			<position x="50" y="20"/>
+			<conditions active_buffs="430674/2" class="::class"/>
+		</Countdown2>
+		<Countdown3 template="EffectCount1" expression="16 秒">
+			<position x="50" y="20"/>
+			<conditions active_buffs="430674/3" class="::class"/>
+		</Countdown3>
+		<Countdown4 template="EffectCount1" expression="12 秒">
+			<position x="50" y="20"/>
+			<conditions active_buffs="430674/4" class="::class"/>
+		</Countdown4>
+		<Countdown5 template="EffectCount1" expression="8 秒">
+			<position x="50" y="20"/>
+			<conditions active_buffs="430674/5" class="::class"/>
+		</Countdown5>
+		<Countdown6 template="EffectCount2" expression="4 秒!!!">
+			<position x="50" y="20"/>
+			<conditions active_buffs="430674/6" class="::class"/>
+		</Countdown6>
+		<Countdown7 template="EffectCount1" expression="">
+			<position x="50" y="20"/>
+			<conditions active_buffs="430674/7" class="::class"/>
+		</Countdown7>
+	</labels>
+</config>

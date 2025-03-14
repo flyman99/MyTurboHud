@@ -1,0 +1,150 @@
+using System;
+using System.Linq;
+using Turbo.Plugins.Default;
+
+namespace Turbo.Plugins.Default
+{
+    public class AutoRiftPlugin : BasePlugin, IInGameTopPainter
+    {
+        private int CurrentStep = 1;
+        private DateTime DisplayTime = DateTime.MinValue;
+        private bool BossDefeated = false;
+
+        public AutoRiftPlugin()
+        {
+            Enabled = true;
+        }
+
+        public void PaintTopInGame(ClipState clipState)
+        {
+            if (clipState != ClipState.BeforeClip) return;
+            if (Hud == null || Hud.Game == null || Hud.Game.Me == null) return;
+
+            switch (CurrentStep)
+            {
+                case 1: // 点击方尖碑
+                    if (Hud.Game.Me.IsInTown)
+                    {
+                        var obelisk = Hud.Game.Actors.FirstOrDefault(a => a.SnoActor.Sno == ActorSnoEnum._x1_openworld_lootrunobelisk_b);
+                        if (obelisk != null)
+                        {
+                            var font = Hud.Render.CreateFont("tahoma", 12, 255, 255, 255, 0, false, false, true);
+                            font.DrawText("点击方尖碑进入大秘境", obelisk.ScreenCoordinate.X, obelisk.ScreenCoordinate.Y - 20);
+                            Hud.TextLog.Log("Step1", $"Obelisk at X:{obelisk.ScreenCoordinate.X}, Y:{obelisk.ScreenCoordinate.Y}");
+                            DisplayTime = DateTime.Now;
+                            if (DateTime.Now > DisplayTime.AddSeconds(3)) CurrentStep = 2;
+                        }
+                    }
+                    break;
+
+                case 2: // 导航与战斗
+                    if (!Hud.Game.Me.IsInTown)
+                    {
+                        var font = Hud.Render.CreateFont("tahoma", 12, 255, 255, 255, 0, false, false, true);
+                        font.DrawText("导航中，清理怪物", 300, 300);
+                        // 输出所有演员，找入口
+                        foreach (var actor in Hud.Game.Actors.Where(a => a.FloorCoordinate.X != 0))
+                        {
+                            Hud.TextLog.Log("Step2", $"Actor Sno: {actor.SnoActor.Sno}, X:{actor.FloorCoordinate.X}, Y:{actor.FloorCoordinate.Y}");
+                        }
+                        // 检查 BOSS
+                        var boss = Hud.Game.Monsters.FirstOrDefault(m => m.IsAlive && m.IsElite);
+                        if (boss != null)
+                        {
+                            font.DrawText("消灭 BOSS", boss.ScreenCoordinate.X, boss.ScreenCoordinate.Y - 20);
+                            Hud.TextLog.Log("Step2", $"BOSS at X:{boss.FloorCoordinate.X}, Y:{boss.FloorCoordinate.Y}");
+                            if (!boss.IsAlive) BossDefeated = true;
+                            if (BossDefeated) CurrentStep = 3;
+                        }
+                    }
+                    break;
+
+                case 3: // 拾取装备
+                    var items = Hud.Game.Items.Where(i => i.FloorCoordinate.X != 0 && i.IsLegendary);
+                    foreach (var item in items)
+                    {
+                        var font = Hud.Render.CreateFont("tahoma", 12, 255, 255, 0, 0, false, false, true);
+                        font.DrawText($"Item_{item.SnoItem.Sno}", item.ScreenCoordinate.X, item.ScreenCoordinate.Y);
+                        Hud.TextLog.Log("Step3", $"拾取: Item_{item.SnoItem.Sno} at X:{item.ScreenCoordinate.X}, Y:{item.ScreenCoordinate.Y}");
+                    }
+                    if (Hud.Game.Me.IsInTown) CurrentStep = 4;
+                    break;
+
+                case 4: // 升级宝石
+                    if (Hud.Game.Me.IsInTown)
+                    {
+                        var font = Hud.Render.CreateFont("tahoma", 12, 255, 255, 255, 0, false, false, true);
+                        font.DrawText("升级最低等级宝石", 300, 300);
+                        Hud.TextLog.Log("Step4", "升级宝石中");
+                        DisplayTime = DateTime.Now;
+                        if (DateTime.Now > DisplayTime.AddSeconds(3)) CurrentStep = 5;
+                    }
+                    break;
+
+                case 5: // 鉴定装备
+                    if (Hud.Game.Me.IsInTown)
+                    {
+                        var appraiser = Hud.Game.Actors.FirstOrDefault(a => a.SnoActor.Sno == ActorSnoEnum._pt_mystic);
+                        if (appraiser != null)
+                        {
+                            var font = Hud.Render.CreateFont("tahoma", 12, 255, 255, 255, 0, false, false, true);
+                            font.DrawText("鉴定装备", appraiser.ScreenCoordinate.X, appraiser.ScreenCoordinate.Y - 20);
+                            Hud.TextLog.Log("Step5", $"Appraiser at X:{appraiser.ScreenCoordinate.X}, Y:{appraiser.ScreenCoordinate.Y}");
+                            DisplayTime = DateTime.Now;
+                            if (DateTime.Now > DisplayTime.AddSeconds(3)) CurrentStep = 6;
+                        }
+                    }
+                    break;
+
+                case 6: // 分解装备
+                    if (Hud.Game.Me.IsInTown)
+                    {
+                        var blacksmith = Hud.Game.Actors.FirstOrDefault(a => a.SnoActor.Sno == ActorSnoEnum._pt_blacksmith);
+                        if (blacksmith != null)
+                        {
+                            var font = Hud.Render.CreateFont("tahoma", 12, 255, 255, 255, 0, false, false, true);
+                            font.DrawText("分解装备", blacksmith.ScreenCoordinate.X, blacksmith.ScreenCoordinate.Y - 20);
+                            Hud.TextLog.Log("Step6", $"Blacksmith at X:{blacksmith.ScreenCoordinate.X}, Y:{blacksmith.ScreenCoordinate.Y}");
+                            DisplayTime = DateTime.Now;
+                            if (DateTime.Now > DisplayTime.AddSeconds(3)) CurrentStep = 7;
+                        }
+                    }
+                    break;
+
+                case 7: // 用血岩赌博
+                    if (Hud.Game.Me.IsInTown)
+                    {
+                        var kadala = Hud.Game.Actors.FirstOrDefault(a => a.SnoActor.Sno == ActorSnoEnum._x1_adventuremode_lorathnahr);
+                        if (kadala != null)
+                        {
+                            var font = Hud.Render.CreateFont("tahoma", 12, 255, 255, 255, 0, false, false, true);
+                            font.DrawText("用血岩赌博", kadala.ScreenCoordinate.X, kadala.ScreenCoordinate.Y - 20);
+                            Hud.TextLog.Log("Step7", $"Kadala at X:{kadala.ScreenCoordinate.X}, Y:{kadala.ScreenCoordinate.Y}");
+                            DisplayTime = DateTime.Now;
+                            if (DateTime.Now > DisplayTime.AddSeconds(3)) CurrentStep = 8;
+                        }
+                    }
+                    break;
+
+                case 8: // 点击欧瑞克完成大秘境
+                    if (Hud.Game.Me.IsInTown && BossDefeated)
+                    {
+                        var orek = Hud.Game.Actors.FirstOrDefault(a => a.SnoActor.Sno == ActorSnoEnum._x1_lr_nephalem);
+                        if (orek != null)
+                        {
+                            var font = Hud.Render.CreateFont("tahoma", 12, 255, 255, 255, 0, false, false, true);
+                            font.DrawText("点击欧瑞克完成大秘境", orek.ScreenCoordinate.X, orek.ScreenCoordinate.Y - 20);
+                            Hud.TextLog.Log("Step8", $"Orek at X:{orek.ScreenCoordinate.X}, Y:{orek.ScreenCoordinate.Y}");
+                            DisplayTime = DateTime.Now;
+                            if (DateTime.Now > DisplayTime.AddSeconds(3))
+                            {
+                                BossDefeated = false;
+                                CurrentStep = 1;
+                            }
+                        }
+                    }
+                    break;
+            }
+        }
+    }
+}

@@ -1,0 +1,651 @@
+2025-03-14 22:16:48.225 [0] 插件已加载，初始状态设置完成
+2025-03-14 22:16:48.226 [0] Running: False, CurrentStep: OpenRift
+2025-03-14 22:16:48.227 [0] PathfindingPlugin: 已找到
+2025-03-14 22:17:16.839 [48778] OnNewArea 被调用，newGame: True, area: New Tristram, SpecialArea: None
+2025-03-14 22:17:16.840 [48778] 新游戏开始，重置状态
+2025-03-14 22:17:17.173 [48778] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:17.175 [48778] Running 为 false，不执行任何操作
+2025-03-14 22:17:20.265 [49018] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:20.272 [49018] Running 为 false，不执行任何操作
+2025-03-14 22:17:20.282 [49019] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:20.282 [49019] Running 为 false，不执行任何操作
+2025-03-14 22:17:20.294 [49020] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:20.295 [49020] Running 为 false，不执行任何操作
+2025-03-14 22:17:20.307 [49021] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:20.309 [49021] Running 为 false，不执行任何操作
+2025-03-14 22:17:20.320 [49021] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:20.321 [49021] Running 为 false，不执行任何操作
+2025-03-14 22:17:20.333 [49022] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:20.334 [49022] Running 为 false，不执行任何操作
+2025-03-14 22:17:20.356 [49023] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:20.357 [49023] Running 为 false，不执行任何操作
+2025-03-14 22:17:20.366 [49024] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:20.367 [49024] Running 为 false，不执行任何操作
+2025-03-14 22:17:20.378 [49025] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:20.380 [49025] Running 为 false，不执行任何操作
+2025-03-14 22:17:20.392 [49026] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:20.393 [49026] Running 为 false，不执行任何操作
+2025-03-14 22:17:20.405 [49026] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:20.406 [49026] Running 为 false，不执行任何操作
+2025-03-14 22:17:20.418 [49027] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:20.419 [49027] Running 为 false，不执行任何操作
+2025-03-14 22:17:20.431 [49028] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:20.432 [49028] Running 为 false，不执行任何操作
+2025-03-14 22:17:20.444 [49029] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:20.445 [49029] Running 为 false，不执行任何操作
+2025-03-14 22:17:20.457 [49030] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:20.459 [49030] Running 为 false，不执行任何操作
+2025-03-14 22:17:20.471 [49030] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:20.472 [49030] Running 为 false，不执行任何操作
+2025-03-14 22:17:20.484 [49031] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:20.485 [49031] Running 为 false，不执行任何操作
+2025-03-14 22:17:20.496 [49032] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:20.497 [49032] Running 为 false，不执行任何操作
+2025-03-14 22:17:20.511 [49033] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:20.512 [49033] Running 为 false，不执行任何操作
+2025-03-14 22:17:20.691 [49048] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:20.693 [49048] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.184 [49051] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.185 [49051] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.213 [49078] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.214 [49078] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.240 [49079] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.241 [49079] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.262 [49081] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.264 [49081] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.292 [49082] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.293 [49082] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.316 [49084] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.317 [49084] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.339 [49085] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.340 [49085] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.361 [49087] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.362 [49087] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.385 [49088] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.386 [49088] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.411 [49090] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.412 [49090] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.434 [49091] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.436 [49091] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.464 [49093] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.466 [49093] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.488 [49094] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.490 [49094] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.512 [49096] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.513 [49096] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.538 [49097] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.539 [49097] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.564 [49099] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.565 [49099] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.589 [49103] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.591 [49103] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.612 [49104] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.614 [49104] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.642 [49105] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.643 [49105] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.693 [49108] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.695 [49108] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.721 [49109] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.722 [49109] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.744 [49111] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.745 [49111] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.767 [49112] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.768 [49112] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.789 [49114] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.790 [49114] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.817 [49115] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.818 [49115] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.846 [49117] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.847 [49117] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.868 [49118] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.870 [49118] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.891 [49120] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.896 [49120] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.921 [49121] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.922 [49121] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.944 [49123] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.945 [49123] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.967 [49124] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.968 [49124] Running 为 false，不执行任何操作
+2025-03-14 22:17:21.992 [49126] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:21.993 [49126] Running 为 false，不执行任何操作
+2025-03-14 22:17:22.016 [49127] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:22.017 [49127] Running 为 false，不执行任何操作
+2025-03-14 22:17:22.038 [49129] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:22.040 [49129] Running 为 false，不执行任何操作
+2025-03-14 22:17:22.062 [49130] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:22.063 [49130] Running 为 false，不执行任何操作
+2025-03-14 22:17:22.083 [49131] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:22.084 [49131] Running 为 false，不执行任何操作
+2025-03-14 22:17:22.105 [49133] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:22.106 [49133] Running 为 false，不执行任何操作
+2025-03-14 22:17:22.128 [49136] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:22.129 [49136] Running 为 false，不执行任何操作
+2025-03-14 22:17:22.287 [49137] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:22.288 [49137] Running 为 false，不执行任何操作
+2025-03-14 22:17:22.332 [49137] 脚本启动，CurrentStep 设置为 RiftStep.OpenRift，AutoNavigate 设置为 true
+2025-03-14 22:17:22.368 [49138] AfterCollect 被调用，Running: True, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:22.369 [49138] 准备执行 CurrentStep: OpenRift
+2025-03-14 22:17:22.371 [49138] ExecuteCurrentStep 被调用，当前步骤: OpenRift
+2025-03-14 22:17:22.372 [49138] 执行 OpenGreaterRift() 方法
+2025-03-14 22:17:22.377 [49138] OpenGreaterRift 被调用，CurrentStep: OpenRift, IsInTown: True, IsInRift: False, SpecialArea: None
+2025-03-14 22:17:22.378 [49138] 找到方尖碑，距离: 70.26649
+2025-03-14 22:17:22.379 [49138] 直接移动到方尖碑
+2025-03-14 22:17:22.506 [49138] 距离较远，使用寻路插件
+2025-03-14 22:17:22.511 [49138] 调用 PathfindingPlugin.Update
+2025-03-14 22:17:22.705 [49168] AfterCollect 被调用，Running: True, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:22.706 [49168] 准备执行 CurrentStep: OpenRift
+2025-03-14 22:17:22.707 [49168] ExecuteCurrentStep 被调用，当前步骤: OpenRift
+2025-03-14 22:17:22.708 [49168] 执行 OpenGreaterRift() 方法
+2025-03-14 22:17:22.709 [49168] OpenGreaterRift 被调用，CurrentStep: OpenRift, IsInTown: True, IsInRift: False, SpecialArea: None
+2025-03-14 22:17:22.710 [49168] 找到方尖碑，距离: 73.12101
+2025-03-14 22:17:22.711 [49168] 直接移动到方尖碑
+2025-03-14 22:17:22.824 [49168] 距离较远，使用寻路插件
+2025-03-14 22:17:22.830 [49168] 调用 PathfindingPlugin.Update
+2025-03-14 22:17:23.006 [49188] AfterCollect 被调用，Running: True, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:23.007 [49188] 准备执行 CurrentStep: OpenRift
+2025-03-14 22:17:23.009 [49188] ExecuteCurrentStep 被调用，当前步骤: OpenRift
+2025-03-14 22:17:23.010 [49188] 执行 OpenGreaterRift() 方法
+2025-03-14 22:17:23.010 [49188] OpenGreaterRift 被调用，CurrentStep: OpenRift, IsInTown: True, IsInRift: False, SpecialArea: None
+2025-03-14 22:17:23.011 [49188] 找到方尖碑，距离: 76.21865
+2025-03-14 22:17:23.013 [49188] 直接移动到方尖碑
+2025-03-14 22:17:23.126 [49188] 距离较远，使用寻路插件
+2025-03-14 22:17:23.131 [49188] 调用 PathfindingPlugin.Update
+2025-03-14 22:17:23.322 [49206] AfterCollect 被调用，Running: True, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:23.323 [49206] 准备执行 CurrentStep: OpenRift
+2025-03-14 22:17:23.324 [49206] ExecuteCurrentStep 被调用，当前步骤: OpenRift
+2025-03-14 22:17:23.324 [49206] 执行 OpenGreaterRift() 方法
+2025-03-14 22:17:23.325 [49206] OpenGreaterRift 被调用，CurrentStep: OpenRift, IsInTown: True, IsInRift: False, SpecialArea: None
+2025-03-14 22:17:23.325 [49206] 找到方尖碑，距离: 78.64432
+2025-03-14 22:17:23.326 [49206] 直接移动到方尖碑
+2025-03-14 22:17:23.443 [49206] 距离较远，使用寻路插件
+2025-03-14 22:17:23.447 [49206] 调用 PathfindingPlugin.Update
+2025-03-14 22:17:23.626 [49225] AfterCollect 被调用，Running: True, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:23.627 [49225] 准备执行 CurrentStep: OpenRift
+2025-03-14 22:17:23.628 [49225] ExecuteCurrentStep 被调用，当前步骤: OpenRift
+2025-03-14 22:17:23.628 [49225] 执行 OpenGreaterRift() 方法
+2025-03-14 22:17:23.629 [49225] OpenGreaterRift 被调用，CurrentStep: OpenRift, IsInTown: True, IsInRift: False, SpecialArea: None
+2025-03-14 22:17:23.630 [49225] 找到方尖碑，距离: 80.32434
+2025-03-14 22:17:23.631 [49225] 直接移动到方尖碑
+2025-03-14 22:17:23.746 [49225] 距离较远，使用寻路插件
+2025-03-14 22:17:23.751 [49225] 调用 PathfindingPlugin.Update
+2025-03-14 22:17:23.926 [49240] AfterCollect 被调用，Running: True, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:23.926 [49240] 准备执行 CurrentStep: OpenRift
+2025-03-14 22:17:23.927 [49240] ExecuteCurrentStep 被调用，当前步骤: OpenRift
+2025-03-14 22:17:23.928 [49240] 执行 OpenGreaterRift() 方法
+2025-03-14 22:17:23.928 [49240] OpenGreaterRift 被调用，CurrentStep: OpenRift, IsInTown: True, IsInRift: False, SpecialArea: None
+2025-03-14 22:17:23.929 [49240] 找到方尖碑，距离: 80.40554
+2025-03-14 22:17:23.930 [49240] 直接移动到方尖碑
+2025-03-14 22:17:24.042 [49240] 距离较远，使用寻路插件
+2025-03-14 22:17:24.048 [49240] 调用 PathfindingPlugin.Update
+2025-03-14 22:17:24.225 [49260] AfterCollect 被调用，Running: True, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:24.226 [49260] 准备执行 CurrentStep: OpenRift
+2025-03-14 22:17:24.227 [49260] ExecuteCurrentStep 被调用，当前步骤: OpenRift
+2025-03-14 22:17:24.228 [49260] 执行 OpenGreaterRift() 方法
+2025-03-14 22:17:24.229 [49260] OpenGreaterRift 被调用，CurrentStep: OpenRift, IsInTown: True, IsInRift: False, SpecialArea: None
+2025-03-14 22:17:24.229 [49260] 未找到方尖碑
+2025-03-14 22:17:24.230 [49260] 调用 PathfindingPlugin.Update
+2025-03-14 22:17:24.333 [49264] AfterCollect 被调用，Running: True, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:24.334 [49264] 准备执行 CurrentStep: OpenRift
+2025-03-14 22:17:24.335 [49264] ExecuteCurrentStep 被调用，当前步骤: OpenRift
+2025-03-14 22:17:24.336 [49264] 执行 OpenGreaterRift() 方法
+2025-03-14 22:17:24.337 [49264] OpenGreaterRift 被调用，CurrentStep: OpenRift, IsInTown: True, IsInRift: False, SpecialArea: None
+2025-03-14 22:17:24.338 [49264] 未找到方尖碑
+2025-03-14 22:17:24.338 [49264] 调用 PathfindingPlugin.Update
+2025-03-14 22:17:24.535 [49280] AfterCollect 被调用，Running: True, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:24.537 [49280] 准备执行 CurrentStep: OpenRift
+2025-03-14 22:17:24.538 [49280] ExecuteCurrentStep 被调用，当前步骤: OpenRift
+2025-03-14 22:17:24.538 [49280] 执行 OpenGreaterRift() 方法
+2025-03-14 22:17:24.539 [49280] OpenGreaterRift 被调用，CurrentStep: OpenRift, IsInTown: True, IsInRift: False, SpecialArea: None
+2025-03-14 22:17:24.540 [49280] 找到方尖碑，距离: 69.4006
+2025-03-14 22:17:24.541 [49280] 直接移动到方尖碑
+2025-03-14 22:17:24.655 [49280] 距离较远，使用寻路插件
+2025-03-14 22:17:24.660 [49280] 调用 PathfindingPlugin.Update
+2025-03-14 22:17:24.841 [49296] AfterCollect 被调用，Running: True, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:24.842 [49296] 准备执行 CurrentStep: OpenRift
+2025-03-14 22:17:24.842 [49296] ExecuteCurrentStep 被调用，当前步骤: OpenRift
+2025-03-14 22:17:24.843 [49296] 执行 OpenGreaterRift() 方法
+2025-03-14 22:17:24.844 [49296] OpenGreaterRift 被调用，CurrentStep: OpenRift, IsInTown: True, IsInRift: False, SpecialArea: None
+2025-03-14 22:17:24.845 [49296] 找到方尖碑，距离: 66.90788
+2025-03-14 22:17:24.845 [49296] 直接移动到方尖碑
+2025-03-14 22:17:24.958 [49296] 距离较远，使用寻路插件
+2025-03-14 22:17:24.963 [49296] 调用 PathfindingPlugin.Update
+2025-03-14 22:17:25.150 [49317] AfterCollect 被调用，Running: True, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:25.151 [49317] 准备执行 CurrentStep: OpenRift
+2025-03-14 22:17:25.152 [49317] ExecuteCurrentStep 被调用，当前步骤: OpenRift
+2025-03-14 22:17:25.153 [49317] 执行 OpenGreaterRift() 方法
+2025-03-14 22:17:25.154 [49317] OpenGreaterRift 被调用，CurrentStep: OpenRift, IsInTown: True, IsInRift: False, SpecialArea: None
+2025-03-14 22:17:25.155 [49317] 找到方尖碑，距离: 64.8628
+2025-03-14 22:17:25.156 [49317] 直接移动到方尖碑
+2025-03-14 22:17:25.273 [49317] 距离较远，使用寻路插件
+2025-03-14 22:17:25.278 [49317] 调用 PathfindingPlugin.Update
+2025-03-14 22:17:25.457 [49332] AfterCollect 被调用，Running: True, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:25.458 [49332] 准备执行 CurrentStep: OpenRift
+2025-03-14 22:17:25.459 [49332] ExecuteCurrentStep 被调用，当前步骤: OpenRift
+2025-03-14 22:17:25.460 [49332] 执行 OpenGreaterRift() 方法
+2025-03-14 22:17:25.461 [49332] OpenGreaterRift 被调用，CurrentStep: OpenRift, IsInTown: True, IsInRift: False, SpecialArea: None
+2025-03-14 22:17:25.462 [49332] 找到方尖碑，距离: 62.27306
+2025-03-14 22:17:25.463 [49332] 直接移动到方尖碑
+2025-03-14 22:17:25.577 [49332] 距离较远，使用寻路插件
+2025-03-14 22:17:25.583 [49332] 调用 PathfindingPlugin.Update
+2025-03-14 22:17:25.711 [49348] AfterCollect 被调用，Running: True, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:25.712 [49348] 准备执行 CurrentStep: OpenRift
+2025-03-14 22:17:25.713 [49348] ExecuteCurrentStep 被调用，当前步骤: OpenRift
+2025-03-14 22:17:25.714 [49348] 执行 OpenGreaterRift() 方法
+2025-03-14 22:17:25.716 [49348] OpenGreaterRift 被调用，CurrentStep: OpenRift, IsInTown: True, IsInRift: False, SpecialArea: None
+2025-03-14 22:17:25.718 [49348] 找到方尖碑，距离: 62.46442
+2025-03-14 22:17:25.719 [49348] 直接移动到方尖碑
+2025-03-14 22:17:25.837 [49348] 距离较远，使用寻路插件
+2025-03-14 22:17:25.843 [49348] 调用 PathfindingPlugin.Update
+2025-03-14 22:17:26.020 [49368] AfterCollect 被调用，Running: True, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:26.021 [49368] 准备执行 CurrentStep: OpenRift
+2025-03-14 22:17:26.022 [49368] ExecuteCurrentStep 被调用，当前步骤: OpenRift
+2025-03-14 22:17:26.023 [49368] 执行 OpenGreaterRift() 方法
+2025-03-14 22:17:26.024 [49368] OpenGreaterRift 被调用，CurrentStep: OpenRift, IsInTown: True, IsInRift: False, SpecialArea: None
+2025-03-14 22:17:26.025 [49368] 找到方尖碑，距离: 60.7023
+2025-03-14 22:17:26.026 [49368] 直接移动到方尖碑
+2025-03-14 22:17:26.141 [49368] 距离较远，使用寻路插件
+2025-03-14 22:17:26.146 [49368] 调用 PathfindingPlugin.Update
+2025-03-14 22:17:26.321 [49380] AfterCollect 被调用，Running: True, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:26.322 [49380] 准备执行 CurrentStep: OpenRift
+2025-03-14 22:17:26.323 [49380] ExecuteCurrentStep 被调用，当前步骤: OpenRift
+2025-03-14 22:17:26.324 [49380] 执行 OpenGreaterRift() 方法
+2025-03-14 22:17:26.325 [49380] OpenGreaterRift 被调用，CurrentStep: OpenRift, IsInTown: True, IsInRift: False, SpecialArea: None
+2025-03-14 22:17:26.326 [49380] 找到方尖碑，距离: 58.78609
+2025-03-14 22:17:26.327 [49380] 直接移动到方尖碑
+2025-03-14 22:17:26.442 [49380] 距离较远，使用寻路插件
+2025-03-14 22:17:26.448 [49380] 调用 PathfindingPlugin.Update
+2025-03-14 22:17:26.642 [49404] AfterCollect 被调用，Running: True, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:26.644 [49404] 准备执行 CurrentStep: OpenRift
+2025-03-14 22:17:26.644 [49404] ExecuteCurrentStep 被调用，当前步骤: OpenRift
+2025-03-14 22:17:26.644 [49404] 执行 OpenGreaterRift() 方法
+2025-03-14 22:17:26.645 [49404] OpenGreaterRift 被调用，CurrentStep: OpenRift, IsInTown: True, IsInRift: False, SpecialArea: None
+2025-03-14 22:17:26.646 [49404] 找到方尖碑，距离: 55.55975
+2025-03-14 22:17:26.646 [49404] 直接移动到方尖碑
+2025-03-14 22:17:26.758 [49404] 距离较远，使用寻路插件
+2025-03-14 22:17:26.762 [49404] 调用 PathfindingPlugin.Update
+2025-03-14 22:17:26.941 [49420] AfterCollect 被调用，Running: True, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:26.942 [49420] 准备执行 CurrentStep: OpenRift
+2025-03-14 22:17:26.943 [49420] ExecuteCurrentStep 被调用，当前步骤: OpenRift
+2025-03-14 22:17:26.943 [49420] 执行 OpenGreaterRift() 方法
+2025-03-14 22:17:26.944 [49420] OpenGreaterRift 被调用，CurrentStep: OpenRift, IsInTown: True, IsInRift: False, SpecialArea: None
+2025-03-14 22:17:26.945 [49420] 找到方尖碑，距离: 53.62965
+2025-03-14 22:17:26.946 [49420] 直接移动到方尖碑
+2025-03-14 22:17:27.061 [49420] 距离较远，使用寻路插件
+2025-03-14 22:17:27.066 [49420] 调用 PathfindingPlugin.Update
+2025-03-14 22:17:27.250 [49440] AfterCollect 被调用，Running: True, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:27.251 [49440] 准备执行 CurrentStep: OpenRift
+2025-03-14 22:17:27.252 [49440] ExecuteCurrentStep 被调用，当前步骤: OpenRift
+2025-03-14 22:17:27.253 [49440] 执行 OpenGreaterRift() 方法
+2025-03-14 22:17:27.254 [49440] OpenGreaterRift 被调用，CurrentStep: OpenRift, IsInTown: True, IsInRift: False, SpecialArea: None
+2025-03-14 22:17:27.255 [49440] 找到方尖碑，距离: 50.72802
+2025-03-14 22:17:27.256 [49440] 直接移动到方尖碑
+2025-03-14 22:17:27.369 [49440] 距离较远，使用寻路插件
+2025-03-14 22:17:27.374 [49440] 调用 PathfindingPlugin.Update
+2025-03-14 22:17:27.552 [49460] AfterCollect 被调用，Running: True, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:27.554 [49460] 准备执行 CurrentStep: OpenRift
+2025-03-14 22:17:27.555 [49460] ExecuteCurrentStep 被调用，当前步骤: OpenRift
+2025-03-14 22:17:27.555 [49460] 执行 OpenGreaterRift() 方法
+2025-03-14 22:17:27.556 [49460] OpenGreaterRift 被调用，CurrentStep: OpenRift, IsInTown: True, IsInRift: False, SpecialArea: None
+2025-03-14 22:17:27.557 [49460] 找到方尖碑，距离: 48.51735
+2025-03-14 22:17:27.558 [49460] 直接移动到方尖碑
+2025-03-14 22:17:27.673 [49460] 距离较远，使用寻路插件
+2025-03-14 22:17:27.678 [49460] 调用 PathfindingPlugin.Update
+2025-03-14 22:17:27.853 [49476] AfterCollect 被调用，Running: True, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:27.855 [49476] 准备执行 CurrentStep: OpenRift
+2025-03-14 22:17:27.856 [49476] ExecuteCurrentStep 被调用，当前步骤: OpenRift
+2025-03-14 22:17:27.857 [49476] 执行 OpenGreaterRift() 方法
+2025-03-14 22:17:27.857 [49476] OpenGreaterRift 被调用，CurrentStep: OpenRift, IsInTown: True, IsInRift: False, SpecialArea: None
+2025-03-14 22:17:27.858 [49476] 找到方尖碑，距离: 45.26678
+2025-03-14 22:17:27.859 [49476] 直接移动到方尖碑
+2025-03-14 22:17:27.976 [49476] 距离较远，使用寻路插件
+2025-03-14 22:17:27.979 [49476] 调用 PathfindingPlugin.Update
+2025-03-14 22:17:28.157 [49476] 脚本停止，AutoNavigate 设置为 false
+2025-03-14 22:17:28.183 [49498] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.184 [49498] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.205 [49500] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.206 [49500] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.227 [49502] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.229 [49502] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.254 [49503] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.256 [49503] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.276 [49503] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.277 [49503] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.299 [49504] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.300 [49504] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.325 [49505] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.326 [49505] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.347 [49507] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.349 [49507] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.370 [49511] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.371 [49511] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.395 [49512] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.396 [49512] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.417 [49512] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.418 [49512] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.439 [49513] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.440 [49513] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.464 [49514] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.465 [49514] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.487 [49516] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.488 [49516] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.515 [49517] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.516 [49517] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.536 [49520] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.537 [49520] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.558 [49522] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.559 [49522] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.581 [49523] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.582 [49523] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.606 [49524] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.608 [49524] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.629 [49525] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.631 [49525] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.693 [49528] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.696 [49528] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.718 [49529] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.719 [49529] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.740 [49530] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.741 [49530] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.768 [49532] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.769 [49532] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.792 [49536] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.793 [49536] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.816 [49537] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.817 [49537] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.838 [49538] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.839 [49538] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.860 [49540] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.862 [49540] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.885 [49541] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.886 [49541] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.909 [49542] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.910 [49542] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.932 [49544] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.933 [49544] Running 为 false，不执行任何操作
+2025-03-14 22:17:28.959 [49545] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:28.960 [49545] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.042 [49546] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.042 [49546] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.065 [49552] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.068 [49552] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.088 [49554] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.089 [49554] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.105 [49555] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.106 [49555] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.121 [49556] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.123 [49556] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.138 [49557] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.139 [49557] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.156 [49558] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.158 [49558] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.174 [49559] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.175 [49559] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.215 [49561] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.216 [49561] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.233 [49562] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.234 [49562] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.253 [49563] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.255 [49563] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.271 [49564] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.272 [49564] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.288 [49565] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.289 [49565] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.307 [49567] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.309 [49567] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.326 [49568] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.327 [49568] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.342 [49569] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.343 [49569] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.358 [49570] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.359 [49570] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.375 [49571] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.376 [49571] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.391 [49572] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.392 [49572] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.408 [49573] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.409 [49573] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.425 [49574] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.426 [49574] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.444 [49575] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.445 [49575] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.461 [49576] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.462 [49576] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.480 [49577] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.482 [49577] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.497 [49578] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.498 [49578] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.512 [49579] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.513 [49579] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.531 [49580] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.532 [49580] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.546 [49581] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.548 [49581] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.584 [49583] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.585 [49583] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.600 [49584] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.601 [49584] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.619 [49585] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.620 [49585] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.635 [49586] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.637 [49586] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.653 [49588] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.654 [49588] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.670 [49589] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.671 [49589] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.689 [49590] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.690 [49590] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.706 [49591] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.707 [49591] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.723 [49592] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.724 [49592] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.740 [49593] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.742 [49593] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.758 [49594] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.759 [49594] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.777 [49595] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.778 [49595] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.796 [49596] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.798 [49596] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.821 [49597] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.822 [49597] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.846 [49599] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.847 [49599] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.871 [49600] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.873 [49600] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.892 [49602] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.893 [49602] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.913 [49603] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.914 [49603] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.931 [49604] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.933 [49604] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.952 [49605] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.953 [49605] Running 为 false，不执行任何操作
+2025-03-14 22:17:29.998 [49608] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:29.999 [49608] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.015 [49609] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.016 [49609] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.034 [49610] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.035 [49610] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.052 [49611] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.053 [49611] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.070 [49612] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.071 [49612] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.088 [49614] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.089 [49614] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.105 [49615] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.106 [49615] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.123 [49616] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.124 [49616] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.141 [49617] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.141 [49617] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.159 [49618] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.160 [49618] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.176 [49619] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.178 [49619] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.192 [49620] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.194 [49620] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.210 [49621] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.211 [49621] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.226 [49623] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.227 [49623] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.243 [49623] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.244 [49623] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.262 [49624] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.263 [49624] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.279 [49626] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.280 [49626] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.296 [49627] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.298 [49627] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.313 [49628] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.314 [49628] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.330 [49629] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.332 [49629] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.373 [49631] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.374 [49631] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.399 [49632] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.400 [49632] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.426 [49634] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.428 [49634] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.450 [49636] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.451 [49636] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.475 [49637] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.476 [49637] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.502 [49638] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.503 [49638] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.525 [49639] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.527 [49639] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.552 [49640] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.553 [49640] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.581 [49643] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.582 [49643] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.603 [49644] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.604 [49644] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.633 [49646] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.634 [49646] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.658 [49648] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.659 [49648] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.685 [49649] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.686 [49649] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.729 [49652] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.730 [49652] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.753 [49653] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.755 [49653] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.781 [49655] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.782 [49655] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.804 [49656] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.805 [49656] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.833 [49658] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.834 [49658] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.864 [49660] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.865 [49660] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.902 [49662] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.903 [49662] Running 为 false，不执行任何操作
+2025-03-14 22:17:30.975 [49666] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:30.976 [49666] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.002 [49668] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.004 [49668] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.030 [49670] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.032 [49670] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.056 [49671] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.058 [49671] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.083 [49673] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.084 [49673] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.108 [49674] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.110 [49674] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.132 [49676] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.133 [49676] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.156 [49677] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.158 [49677] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.179 [49679] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.180 [49679] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.204 [49678] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.205 [49678] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.230 [49679] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.231 [49679] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.254 [49681] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.255 [49681] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.278 [49682] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.279 [49682] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.305 [49683] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.306 [49683] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.328 [49685] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.330 [49685] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.351 [49686] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.352 [49686] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.377 [49688] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.378 [49688] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.401 [49689] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.402 [49689] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.430 [49694] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.431 [49694] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.453 [49695] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.454 [49695] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.502 [49697] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.503 [49697] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.528 [49700] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.530 [49700] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.551 [49701] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.552 [49701] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.573 [49702] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.574 [49702] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.598 [49704] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.599 [49704] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.624 [49705] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.626 [49705] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.647 [49707] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.649 [49707] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.671 [49708] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.672 [49708] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.696 [49709] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.697 [49709] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.719 [49710] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.720 [49710] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.744 [49712] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.745 [49712] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.766 [49713] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.768 [49713] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.789 [49715] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.791 [49715] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.812 [49716] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.814 [49716] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.839 [49719] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.840 [49719] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.862 [49720] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.863 [49720] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.886 [49720] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.887 [49720] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.909 [49721] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.910 [49721] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.933 [49722] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.934 [49722] Running 为 false，不执行任何操作
+2025-03-14 22:17:31.957 [49724] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:31.958 [49724] Running 为 false，不执行任何操作
+2025-03-14 22:17:32.002 [49726] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:32.004 [49726] Running 为 false，不执行任何操作
+2025-03-14 22:17:32.025 [49728] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:32.026 [49728] Running 为 false，不执行任何操作
+2025-03-14 22:17:32.048 [49731] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:32.049 [49731] Running 为 false，不执行任何操作
+2025-03-14 22:17:32.070 [49733] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:32.071 [49733] Running 为 false，不执行任何操作
+2025-03-14 22:17:32.098 [49734] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:32.099 [49734] Running 为 false，不执行任何操作
+2025-03-14 22:17:32.122 [49735] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:32.124 [49735] Running 为 false，不执行任何操作
+2025-03-14 22:17:32.145 [49737] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:32.146 [49737] Running 为 false，不执行任何操作
+2025-03-14 22:17:32.168 [49738] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:32.170 [49738] Running 为 false，不执行任何操作
+2025-03-14 22:17:32.192 [49740] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:32.193 [49740] Running 为 false，不执行任何操作
+2025-03-14 22:17:32.219 [49741] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:32.220 [49741] Running 为 false，不执行任何操作
+2025-03-14 22:17:32.242 [49743] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:32.243 [49743] Running 为 false，不执行任何操作
+2025-03-14 22:17:32.265 [49744] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:32.266 [49744] Running 为 false，不执行任何操作
+2025-03-14 22:17:32.342 [49749] OnNewArea 被调用，newGame: True, area: New Tristram, SpecialArea: None
+2025-03-14 22:17:32.343 [49749] 新游戏开始，重置状态
+2025-03-14 22:17:32.381 [49749] AfterCollect 被调用，Running: False, CurrentStep: OpenRift, IsInGame: True, IsDead: False, SpecialArea: None
+2025-03-14 22:17:32.383 [49749] Running 为 false，不执行任何操作

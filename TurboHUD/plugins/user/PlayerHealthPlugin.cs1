@@ -1,0 +1,184 @@
+using Turbo.Plugins.Default;
+using System.IO.Pipes;
+using System.Text;
+using System.IO;
+using System;
+
+namespace Turbo.Plugins.User
+{
+    public class PlayerHealthPlugin : BasePlugin, IInGameTopPainter
+    {
+        private NamedPipeServerStream pipeServer;
+        private bool isPipeConnected;
+
+        public PlayerHealthPlugin()
+        {
+            Enabled = true;
+            InitializePipe();
+        }
+
+        private void InitializePipe()
+        {
+            if (pipeServer != null)
+            {
+                pipeServer.Close();
+                pipeServer.Dispose();
+            }
+            pipeServer = new NamedPipeServerStream("HealthPipe", PipeDirection.Out, 1);
+            isPipeConnected = false;
+            pipeServer.WaitForConnectionAsync().ContinueWith(t => isPipeConnected = pipeServer.IsConnected);
+        }
+
+        public override void Load(IController hud)
+        {
+            base.Load(hud);
+        }
+
+        public void PaintTopInGame(ClipState clipState)
+        {
+            if (clipState != ClipState.BeforeClip) return;
+            if (!Hud.Game.IsInGame) return;
+
+            var player = Hud.Game.Me;
+            if (player == null) return;
+
+            // 获取血量
+            float currentHealth = player.Defense.HealthCur;
+            float maxHealth = player.Defense.HealthMax;
+            if (maxHealth == 0) return;
+            float healthPercentage = (currentHealth / maxHealth) * 100f;
+
+            // 根据职业获取资源值
+            float currentResource = 0f;
+            float maxResource = 0f;
+            string resourceName = "Resource";
+            switch (player.HeroClassDefinition.HeroClass)
+            {
+                case HeroClass.Wizard:
+                    currentResource = player.Stats.ResourceCurArcane;
+                    maxResource = player.Stats.ResourceMaxArcane;
+                    resourceName = "Arcane Power";
+                    break;
+                case HeroClass.Barbarian:
+                    currentResource = player.Stats.ResourceCurFury;
+                    maxResource = player.Stats.ResourceMaxFury;
+                    resourceName = "Fury";
+                    break;
+                case HeroClass.DemonHunter:
+                    currentResource = player.Stats.ResourceCurHatred;
+                    maxResource = player.Stats.ResourceMaxHatred;
+                    resourceName = "Hatred";
+                    break;
+                case HeroClass.Monk:
+                    currentResource = player.Stats.ResourceCurSpirit;
+                    maxResource = player.Stats.ResourceMaxSpirit;
+                    resourceName = "Spirit";
+                    break;
+                case HeroClass.Crusader:
+                    currentResource = player.Stats.ResourceCurWrath;
+                    maxResource = player.Stats.ResourceMaxWrath;
+                    resourceName = "Wrath";
+                    break;
+                case HeroClass.Necromancer:
+                    currentResource = player.Stats.ResourceCurEssence;
+                    maxResource = player.Stats.ResourceMaxEssence;
+                    resourceName = "Essence";
+                    break;
+                case HeroClass.WitchDoctor:
+                    currentResource = player.Stats.ResourceCurMana;
+                    maxResource = player.Stats.ResourceMaxMana;
+                    resourceName = "Mana";
+                    break;
+                default:
+                    currentResource = 0f;
+                    maxResource = 0f;
+                    resourceName = "Unknown";
+                    break;
+            }
+            float resourcePercentage = (maxResource > 0) ? (currentResource / maxResource) * 100f : 0f;
+
+            // 获取6个技能槽的Buff时间
+            float[] skillBuffs = new float[6];
+            string[] skillNames = new string[6];
+
+            for (int i = 0; i < 6; i++)
+            {
+                var skill = player.Powers.SkillSlots[i];
+                if (skill != null)
+                {
+                    // 技能名称直接从 TurboHUD 获取
+                    skillNames[i] = skill.SnoPower.NameLocalized ?? skill.SnoPower.NameEnglish ?? "Unknown";
+                    uint skillSno = skill.SnoPower.Sno;
+
+                    // Buff剩余时间
+                    var buff = player.Powers.GetBuff(skillSno);
+                    if (buff != null && buff.Active)
+                    {
+                        skillBuffs[i] = (float)buff.TimeLeftSeconds[0];
+                    }
+                    else
+                    {
+                        skillBuffs[i] = 0f;
+                    }
+                }
+                else
+                {
+                    skillNames[i] = "Empty";
+                    skillBuffs[i] = 0f;
+                }
+            }
+
+            // 检查管道状态
+            if (!pipeServer.IsConnected && isPipeConnected)
+            {
+                pipeServer.Close();
+                pipeServer.Dispose();
+                InitializePipe();
+            }
+
+            // 发送数据
+            if (pipeServer.IsConnected)
+            {
+                if (!isPipeConnected) isPipeConnected = true;
+                var dataString = $"{currentHealth},{maxHealth},{currentResource},{maxResource}";
+                for (int i = 0; i < 6; i++)
+                {
+                    dataString += $",{0f},{skillBuffs[i]}"; // CD 固定为 0，仅发送 Buff
+                }
+                dataString += "\n";
+                byte[] data = Encoding.UTF8.GetBytes(dataString);
+                pipeServer.Write(data, 0, data.Length);
+                pipeServer.Flush();
+            }
+
+            // 显示血量
+            var displayFont = Hud.Render.CreateFont("tahoma", 8, 255, 255, 255, 255, true, false, true);
+            var healthText = $"Health: {currentHealth:F0}/{maxHealth:F0} ({healthPercentage:F1}%)";
+            var healthLayout = displayFont.GetTextLayout(healthText);
+            displayFont.DrawText(healthLayout, Hud.Window.Size.Width * 0.5f - healthLayout.Metrics.Width / 2, Hud.Window.Size.Height * 0.1f);
+
+            // 显示资源值
+            var resourceText = $"{resourceName}: {currentResource:F0}/{maxResource:F0} ({resourcePercentage:F1}%)";
+            var resourceLayout = displayFont.GetTextLayout(resourceText);
+            displayFont.DrawText(resourceLayout, Hud.Window.Size.Width * 0.5f - resourceLayout.Metrics.Width / 2, Hud.Window.Size.Height * 0.15f);
+
+            // 显示6个技能槽（仅 Buff）
+            float yOffset = 0.3f;
+            for (int i = 0; i < 6; i++)
+            {
+                var skillText = $"Skill {i + 1} {skillNames[i]}: Buff {skillBuffs[i]:F1} sec";
+                var skillLayout = displayFont.GetTextLayout(skillText);
+                displayFont.DrawText(skillLayout, Hud.Window.Size.Width * 0.5f - skillLayout.Metrics.Width / 2, Hud.Window.Size.Height * (yOffset + i * 0.05f));
+            }
+        }
+
+        public void Dispose()
+        {
+            if (pipeServer != null)
+            {
+                pipeServer.Close();
+                pipeServer.Dispose();
+            }
+        }
+    }
+}

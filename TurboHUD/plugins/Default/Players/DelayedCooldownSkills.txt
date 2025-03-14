@@ -1,0 +1,3 @@
+Monk_MysticAlly,30,立即冷却
+Monk_Serenity,16,延迟冷却
+Monk_Epiphany,60,立即冷却
